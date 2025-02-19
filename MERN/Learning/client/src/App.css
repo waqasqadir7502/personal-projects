@@ -1,0 +1,76 @@
+.App {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputs{
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f0f8ff;
+}
+
+.inputs input{
+  margin: 10px;
+  padding-left: 10px;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+}
+
+.inputs button{
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  background-color: #559ad6;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.inputs button:hover{
+  cursor: pointer;
+}
+.listofFriends{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.friends {
+  width: 400px;
+  height:50px;
+  background-color:#559ad6;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.friends h3{
+  margin-left: 10px ;
+}
+
+.friendContainer{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.friendContainer button{
+  width: 50px;
+  height: 50px;
+  color : #ffffff;
+  background-color:#559ad6 ;
+  border: none;
+}
+
+.friendContainer button:hover{
+  cursor: pointer;
+  background-color: #f0f8ff;
+  color: #559ad6;
+}

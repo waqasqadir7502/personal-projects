@@ -1,0 +1,87 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Navbar */
+
+nav {
+    box-shadow: 0px 0px 1px 0px grey;
+    height: 120px;
+}
+
+.navbar {
+    width: auto;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 40px;
+}
+
+.logo {
+    width: 240px;
+}
+
+
+.nav-links a {
+    margin: 0px 10px;
+    text-decoration: none;
+    font: 18px;
+    font-weight: 600;
+    color: #000000;
+    padding: 10px;
+    transition: 0.2s ease-out;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    background-color: #FFAC1C;
+    color: #ffffff;
+}
+
+.nav-links .active {
+    color: #FFAC1C;
+}
+
+.nav-links .register-btn {
+    background-color: #FFAC1C;
+    color: #ffffff;
+    font: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+.nav-links .register-btn:hover {
+    background-color: #ffffff;
+    color: #FFAC1C;
+    border: 1px solid #FFAC1C;
+}
+
+.logout-btn {
+    background-color: #FFAC1C;
+    color: #ffffff;
+    font: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+.logout-btn:hover {
+    background-color: #ffffff;
+    color: #FFAC1C;
+    border: 1px solid #FFAC1C;
+}
+

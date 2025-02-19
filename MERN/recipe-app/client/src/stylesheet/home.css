@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.post-page{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.posts{
+    width: 50%;
+    height: auto;
+    margin: 50px auto;
+    box-shadow: 0px 0px 5px 0px grey;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.post-head{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.recipe-name{
+    font-size: 32px;
+    margin: 0px 0px;
+}
+
+.user-id{
+    margin: 10px 0px;
+}
+
+.save-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.recipe-img{
+    width: 100%;
+}

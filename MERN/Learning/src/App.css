@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.inputs{
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aliceblue;
+}
+
+.inputs input{
+  margin: 10px;
+  padding-left: 10px;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+}
+
+.inputs button{
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  background-color: rgb(85, 154, 214);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.inputs button:hover{
+  cursor: pointer;
+}
